@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  },
+  "name": "myBlog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/HaiDong-Once/myPress.git",
+  "author": "hhd <haohaidong@pingansec.com>",
+  "license": "MIT",
+
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "bash scripts/deploy-gh.sh"
+  }
+}
